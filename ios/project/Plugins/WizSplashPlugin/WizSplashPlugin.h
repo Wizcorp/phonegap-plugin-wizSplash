@@ -19,6 +19,5 @@
 }
 
 - (void)setSplashInBackground:(NSArray*)arguments withDict:(NSDictionary*)options;
-- (void)showSplash;
 
 @end

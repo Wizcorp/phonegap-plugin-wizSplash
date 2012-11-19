@@ -1,4 +1,4 @@
-/* Spinner/Loader Cordova Plugin - JavaScript side of the bridge to iOS
+/* Splash Cordova Plugin - JavaScript side of the bridge to iOS
  *
  * @author Ally Ogilvie
  * @copyright WizCorp Inc. [ Incorporated Wizards ] 2012
@@ -7,7 +7,7 @@
  */
 
 
-var wizSpinner = {
+var wizSplash = {
     
     setSplashInBackground: function(bool) {
         return cordova.exec(null, null, "WizSplashPlugin", "setSplashInBackground", [bool]);

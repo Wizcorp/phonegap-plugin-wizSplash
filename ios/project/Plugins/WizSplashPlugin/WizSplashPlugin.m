@@ -45,7 +45,7 @@ static BOOL enableSplash;
     
     if (enableSplash==1) {
         
-        [self.viewController showPGSplash];
+        [(CDVViewController *)self.viewController showPGSplash];
         //[self showPGSplash];
         
     } else if (enableSplash==0) {
@@ -67,7 +67,7 @@ static BOOL enableSplash;
         WizLog(@"[SPLASH BACKGROUND] ******* DEFAULT enableSplashOnGotoBackground  %i", enableSplashOnGotoBackground );
         if (enableSplashOnGotoBackground==1) {
             
-            [self.viewController showPGSplash];
+            [(CDVViewController *)self.viewController showPGSplash];
             // [self showPGSplash]; 
         }
     }
