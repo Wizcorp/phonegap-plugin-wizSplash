@@ -1,4 +1,4 @@
-/* SplashPlugin - IOS side of the bridge to wizSpinner JavaScript for PhoneGap
+/* SplashPlugin - IOS side of the bridge to wizSplash JavaScript for PhoneGap
  *
  * @author Ally Ogilvie
  * @copyright Wizcorp Inc. [ Incorporated Wizards ] 2011
