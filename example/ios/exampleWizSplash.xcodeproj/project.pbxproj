@@ -22,7 +22,6 @@
 		F627F6481659D4E500191850 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F627F6471659D4E500191850 /* CoreMedia.framework */; };
 		F627F64E1659D4E500191850 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F627F64C1659D4E500191850 /* InfoPlist.strings */; };
 		F627F6501659D4E500191850 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F627F64F1659D4E500191850 /* main.m */; };
-		F627F6531659D4E500191850 /* Cordova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F627F6521659D4E500191850 /* Cordova.framework */; };
 		F627F6581659D4E500191850 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F627F6561659D4E500191850 /* Localizable.strings */; };
 		F627F65C1659D4E500191850 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F627F65A1659D4E500191850 /* Localizable.strings */; };
 		F627F6601659D4E500191850 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F627F65E1659D4E500191850 /* Localizable.strings */; };
@@ -42,6 +41,7 @@
 		F627F6991659D66500191850 /* WizSplashPluginExtendCDVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F627F6961659D66500191850 /* WizSplashPluginExtendCDVViewController.m */; };
 		F663C3FD165A12C60066D094 /* wizSplash.plist in Resources */ = {isa = PBXBuildFile; fileRef = F663C3FC165A12C60066D094 /* wizSplash.plist */; };
 		F663C402165A18FD0066D094 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F663C401165A18FD0066D094 /* Default-568h@2x.png */; };
+		F6D13D451671D60500EE7F6F /* Cordova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D13D441671D60500EE7F6F /* Cordova.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,7 +63,6 @@
 		F627F64D1659D4E500191850 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F627F64F1659D4E500191850 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F627F6511659D4E500191850 /* exampleWizSplash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "exampleWizSplash-Prefix.pch"; sourceTree = "<group>"; };
-		F627F6521659D4E500191850 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		F627F6571659D4E500191850 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F627F65B1659D4E500191850 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F627F65F1659D4E500191850 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Resources/de.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -91,6 +90,7 @@
 		F627F69A1659D6FB00191850 /* WizDebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizDebugLog.h; sourceTree = "<group>"; };
 		F663C3FC165A12C60066D094 /* wizSplash.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wizSplash.plist; sourceTree = "<group>"; };
 		F663C401165A18FD0066D094 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/splash/Default-568h@2x.png"; sourceTree = "<group>"; };
+		F6D13D441671D60500EE7F6F /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = Frameworks/Cordova.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6D13D451671D60500EE7F6F /* Cordova.framework in Frameworks */,
 				F627F6301659D4E500191850 /* Foundation.framework in Frameworks */,
 				F627F6321659D4E500191850 /* UIKit.framework in Frameworks */,
 				F627F6341659D4E500191850 /* CoreGraphics.framework in Frameworks */,
@@ -111,7 +112,6 @@
 				F627F6441659D4E500191850 /* SystemConfiguration.framework in Frameworks */,
 				F627F6461659D4E500191850 /* MobileCoreServices.framework in Frameworks */,
 				F627F6481659D4E500191850 /* CoreMedia.framework in Frameworks */,
-				F627F6531659D4E500191850 /* Cordova.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +146,7 @@
 		F627F62E1659D4E500191850 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F6D13D441671D60500EE7F6F /* Cordova.framework */,
 				F627F62F1659D4E500191850 /* Foundation.framework */,
 				F627F6311659D4E500191850 /* UIKit.framework */,
 				F627F6331659D4E500191850 /* CoreGraphics.framework */,
@@ -166,7 +167,6 @@
 		F627F6491659D4E500191850 /* exampleWizSplash */ = {
 			isa = PBXGroup;
 			children = (
-				F627F6521659D4E500191850 /* Cordova.framework */,
 				F627F6541659D4E500191850 /* Resources */,
 				F627F6751659D4E600191850 /* Classes */,
 				F627F67E1659D4E600191850 /* Plugins */,
@@ -526,7 +526,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Frameworks\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "exampleWizSplash/exampleWizSplash-Prefix.pch";
@@ -556,7 +556,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "exampleWizSplash/exampleWizSplash-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
