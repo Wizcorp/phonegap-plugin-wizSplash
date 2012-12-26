@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'exampleWizSplash' target in the 'exampleWizSplash' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
