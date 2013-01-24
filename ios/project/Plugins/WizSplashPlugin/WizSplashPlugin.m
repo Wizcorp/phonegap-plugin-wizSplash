@@ -113,10 +113,10 @@ static BOOL defaultEnableSplashOnGotoBackground;
 
 
 
-- (void)setSplashInBackground:(NSArray*)arguments withDict:(NSDictionary*)options
+- (void)setSplashInBackground:(CDVInvokedUrlCommand*)command
 {
     // set the splash boolean
-    enableSplash = [[arguments objectAtIndex:1] boolValue];
+    enableSplash = [[command.arguments objectAtIndex:0] boolValue];
     WizLog(@"[WizUtils] ******* setSplashInBackground %i", enableSplash);
     
     // record that the splash setting was set
