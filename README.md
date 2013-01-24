@@ -1,11 +1,12 @@
 # PLUGIN: 
 
 phonegap-plugin-wizSplash<br />
-version : 1.9<br />
-last update : 19/11/2012<br />
+version : 2.3<br />
+last update : 24/01/2013<br />
 
 
 # CHANGELOG: 
+- Updated for cordova 2.3 (iOS only)
 - Updated for cordova 1.9 (iOS only)
 
 
